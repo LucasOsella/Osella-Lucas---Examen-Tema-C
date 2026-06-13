@@ -1,2 +1,8 @@
-com\ulp\Bateria.class
-com\ulp\PlantillaTp5Junit.class
+com\ulp\Entidades\DepartamentoObrasPublicas.class
+com\ulp\Entidades\Interseccion.class
+com\ulp\Entidades\Bache.class
+com\ulp\Entidades\BrigadaReparacion.class
+com\ulp\Entidades\InformeRotura.class
+com\ulp\Entidades\PedidoObra.class
+com\ulp\Entidades\Ciudadano.class
+com\ulp\Entidades\Trabajador.class

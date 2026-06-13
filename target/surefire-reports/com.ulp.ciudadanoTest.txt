@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.ulp.ciudadanoTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.074 s <<< FAILURE! -- in com.ulp.ciudadanoTest
+com.ulp.ciudadanoTest.testDelay -- Time elapsed: 0.038 s <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 30 milliseconds
+	at java.base/java.lang.Thread.sleepNanos0(Native Method)
+	at java.base/java.lang.Thread.sleepNanos(Thread.java:551)
+	at java.base/java.lang.Thread.sleep(Thread.java:582)
+	at com.ulp.Entidades.Ciudadano.delay(Ciudadano.java:43)
+	at com.ulp.ciudadanoTest.testDelay(ciudadanoTest.java:80)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+
+com.ulp.ciudadanoTest.testValidarUsr -- Time elapsed: 0.001 s <<< FAILURE!
+java.lang.AssertionError: Se esperaba que fallara la validación de usuario
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.ulp.ciudadanoTest.testValidarUsr(ciudadanoTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+
